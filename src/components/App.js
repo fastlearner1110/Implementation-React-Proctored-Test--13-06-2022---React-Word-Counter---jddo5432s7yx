@@ -25,6 +25,7 @@ const App = () => {
         <div id="main">
             <input
                 onChange={changeFontSize}
+                value={fontsize}
                 type="range"
                 id="fontsize-input"
                 min="16"
